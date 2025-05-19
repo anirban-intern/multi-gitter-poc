@@ -77,8 +77,8 @@ multi-gitter run "node $PWD/my-script.js" ... # Node</code></pre>
   <p>Before applying real changes, test using the <code style="background-color: #f4f4f4;">--dry-run</code> flag:</p>
 
   <pre style="background-color: #f9f9f9; padding: 1rem; border-left: 4px solid #5b21b6;"><code>multi-gitter run "node $PWD/my-script.js" --dry-run --log-level=debug \
-  -R Coder-Rohan24/Repo1 \
-  -R Coder-Rohan24/Repo2 \
+  -R &lt;username&gt/Repo1 \
+  -R &lt;username&gt/Repo2 \
   -m "Replace Repo with Repository" \
   -B newchanges \
   -T &lt;your-github-token&gt; \
@@ -90,8 +90,8 @@ multi-gitter run "node $PWD/my-script.js" ... # Node</code></pre>
   <h2 style="color: #5b21b6;">🚀 Running the Script (Real Run)</h2>
 
   <pre style="background-color: #f9f9f9; padding: 1rem; border-left: 4px solid #5b21b6;"><code>multi-gitter run "node $PWD/my-script.js" \
-  -R Coder-Rohan24/Repo1 \
-  -R Coder-Rohan24/Repo2 \
+  -R &lt;username&gt/Repo1 \
+  -R &lt;username&gt/Repo2 \
   -m "Replace Repo with Repository" \
   -B newchanges \
   -T &lt;your-github-token&gt;</code></pre>
