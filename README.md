@@ -106,8 +106,11 @@ multi-gitter run "node $PWD/my-script.js" ... # Node</code></pre>
   <p>Below is the terminal log</p>
    <img src="images/run.png" alt="PR Created" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 1rem 0;" />
 
-  <h2 style="color: #5b21b6;">📸 Pull Request Created</h2>
-  <img src="images/pr-created.png" alt="PR Created" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 1rem 0;" />
+  <h2 style="color: #5b21b6;">📸 Pull Request Created along with that "newchanges" branch has been created.</h2>
+  <h3>Repo 1</h3>
+  <img src="images/pr-created-Repo1.png" alt="PR Created" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 1rem 0;" />
+  <h3>Repo 2</h3>
+  <img src="images/pr-created-Repo2.png" alt="PR Created" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 1rem 0;" />
 
   <h2 style="color: #5b21b6;">📌 PR Status</h2>
   <img src="images/pr-status.png" alt="PR Status" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 1rem 0;" />
@@ -115,7 +118,7 @@ multi-gitter run "node $PWD/my-script.js" ... # Node</code></pre>
   <h2 style="color: #5b21b6;">🔁 Merging or Closing PRs</h2>
 
   <h3 style="color: #5b21b6;">✅ Merged the PR for <code style="background-color: #f4f4f4;">Repo1</code></h3>
-  <img src="images/pr-merged-repo1.png" alt="PR Merged for Repo1" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 1rem 0;" />
+  <img src="images/pr-merged-repo1.png" alt="PR Merged for Repo1" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 1rem 0 ;" />
   <p>The word <strong>Repo</strong> has now changed to <strong>Repository</strong> in <code style="background-color: #f4f4f4;">Repo1</code>.</p>
 
   <h3 style="color: #5b21b6;">❌ Closed the PR for <code style="background-color: #f4f4f4;">Repo2</code></h3>
@@ -127,10 +130,10 @@ multi-gitter run "node $PWD/my-script.js" ... # Node</code></pre>
   <h3 style="color: #5b21b6;">📂 <code style="background-color: #f4f4f4;">Repo1</code> (after merge):</h3>
   <pre style="background-color: #f9f9f9; padding: 1rem; border-left: 4px solid #5b21b6;">- Repo No:1
 + Repository No:1</pre>
-
+  <img src="images/result-repo1.png" alt="PR Closed for Repo2" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 1rem 0;" />
   <h3 style="color: #5b21b6;">📂 <code style="background-color: #f4f4f4;">Repo2</code> (unchanged):</h3>
   <pre style="background-color: #f9f9f9; padding: 1rem; border-left: 4px solid #5b21b6;">Repo No:2</pre>
-
+  <img src="images/result-repo2.png" alt="PR Closed for Repo2" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 1rem 0;" />
   <h2 style="color: #5b21b6;">📚 Summary</h2>
   <table style="width: 100%; border-collapse: collapse; margin: 1rem 0;">
     <thead>
